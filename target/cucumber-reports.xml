@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="47.092">
+    <testcase classname="Login" name="Successful Login with Valid Credentials" time="16.015">
+        <system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And User enters Email as "Admin" and Password as "admin123".................passed
+And Click on Login..........................................................passed
+Then Page Title should be "OrangeHRM".......................................passed
+When User click on mendauser link...........................................passed
+When User click on Log out link.............................................passed
+Then Page Title should be "OrangeHRM".......................................passed
+And close browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="Successful Login with Valid Credentials DDT" time="15.563">
+        <system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And User enters Email as "Admin" and Password as "admin123".................passed
+And Click on Login..........................................................passed
+Then Page Title should be "OrangeHRM".......................................passed
+When User click on mendauser link...........................................passed
+When User click on Log out link.............................................passed
+Then Page Title should be "OrangeHRM".......................................passed
+And close browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="Successful Login with Valid Credentials DDT 2" time="15.327">
+        <system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And User enters Email as "Admin" and Password as "admin123".................passed
+And Click on Login..........................................................passed
+Then Page Title should be "OrangeHRM".......................................passed
+When User click on mendauser link...........................................passed
+When User click on Log out link.............................................passed
+Then Page Title should be "OrangeHRM".......................................passed
+And close browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
